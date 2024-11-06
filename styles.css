@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Invitation Header */
+#invitation-header {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #ffccf9, #b3e5fc);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#invitation-header h1 {
+    font-size: 2.8em;
+    color: #ff80ab;
+    margin-bottom: 10px;
+}
+
+#invitation-header h2 {
+    font-size: 2em;
+    color: #64b5f6;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #555;
+}
+
+.date, .location {
+    font-size: 1.1em;
+    color: #455a64;
+    margin-bottom: 15px;
+}
+
+/* RSVP Section */
+#rsvp {
+    padding: 30px 20px;
+    background-color: #e3f2fd;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+#rsvp h3 {
+    font-size: 1.8em;
+    color: #42a5f5;
+}
+
+.rsvp-button {
+    padding: 12px 24px;
+    background-color: #ff80ab;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.rsvp-button:hover {
+    background-color: #f06292;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #ff80ab;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+.countdown {
+    font-size: 1.5em;
+    color: #ff80ab;
+    margin-top: 20px;
+}
